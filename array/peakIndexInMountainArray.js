@@ -1,6 +1,4 @@
 //Pick Index in a Mountain Array
-// LeetCode - 852 - Binary Search
-
 function peakIndexInMountainArray(arr, size) {
     let s = 0, e = size - 1;
     let mid = parseInt(s + (e - s) / 2);
